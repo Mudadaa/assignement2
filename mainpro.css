@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/);
+}
+head,body,footer{
+    font-family: Roboto;
+}
+.hero{
+    display: grid;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    padding-left: 100px;
+    margin-left: 200px;
+    width: auto;
+    height: auto;
+    align-content: space-between;
+    justify-items: stretch;
+    align-items: stretch;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+
+}
+.headerlogo{
+    justify-content: flex-start;
+    
+    font-weight: 24px;
+    color: white;
+
+
+}
+a{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    
+    font-weight: 18px;
+    color: #e5e7eb;
+    
+    text-decoration:none;
+    
+}
+.headertitle{
+    color: white;
+    font-weight: 18px;
+    color: #e5e7eb;
+}
+#aw{
+    font-weight: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.sign-btn{
+background-color: #3882f6;
+width: auto;
+color: #F9FAF8;
+border: none;
+border-radius: 10px;
+}
+.place4img{
+    display: flex;
+width: 200px;
+height: 150px;
+background-color: grey;
+padding-left:500px ;
+margin-bottom: 50px;
+}
+.elements{
+    font-weight: 36px;
+    color: #1F2937;
+}
+.case{
+    display: flex;
+    justify-items: space-around;
+    
+    border: #3882f6 1px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+span{
+    gap:inherit;
+}
+.rectangle{
+    display: flex;
+    width: auto;
+    height: 150px;
+    background-color: #E5E7EB;
+    font-weight: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-left:200px ;
+    padding-left: 100px;
+}
+
+.call2action{
+    background-color:#3882f6 ;
+    width: 300px ;
+    height: 100px ;
+    margin-left:200px ;
+    padding-left: 100px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.sign-btn2{
+    color: #3882f6;
+    width: auto;
+    background-color: #F9FAF8;
+    border: white solid 3px;
+    border-radius: 10px;
+    }
+
+    footer{
+        display: grid;
+        justify-content: space-evenly;
+        background-color: #1F2937;
+        padding-left: 100px;
+        margin-left: 200px;
+        width: auto;
+        height: auto;
+    }
